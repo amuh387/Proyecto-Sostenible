@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Formulario">
+  <title>Formularios</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <p>Si tienes preguntas, sugerencias o simplemente deseas ponerte en contacto con nosotros, no dudes en llenar el siguiente formulario. Estamos ansiosos por escucharte y trabajar juntos para un futuro más sostenible.
+    </p>
+<form action="#" method="get">
+
+        <label for="nombre">Tu Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="email">Tu correo electrónico:</label>
+        <input type="text" id="email" name="email">
+<p>¿Cómo nos conocistes?</p>
+
+    <input type="checkbox" id="rrss" name="conoce">
+    <label for="rrss">Redes Sociales</label>
+    <br>
+    <input type="checkbox" id="publicidad" name="conoce">
+    <label for="publicidad">Por Publicidad</label>
+    <br>
+    <input type="checkbox" id="boca" name="conoce">
+    <label for="boca">Por boca a boca</label>
+    <br>
+    <br>
+       
+    <p>Tu mensaje:</p> 
+        <textarea rows="6" cols="40"></textarea>
+    <br>
+    <!--Botón de envío-->
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+
+</form>
+</body>
+</html>
