@@ -1,6 +1,6 @@
 # Proyecto-Sostenible
 Trabajo TIC
 
-Miembros del equipo:
+Miembros del equipo: Awais, Arturo, Ángel
 
 Página de acceso:
