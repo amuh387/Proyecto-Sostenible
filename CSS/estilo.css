@@ -1,10 +1,11 @@
 body {
  background-color: #eee;
- font-family:Verdana, Geneva, Tahoma, sans-serif;
- font-size: 25px;
- font-weight: 800;
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ text-align: left;
 
 }
+
 header {
     background-color: #333333;
     color: #fff;
@@ -13,10 +14,12 @@ header {
     border-style: dotted;
    }
 
+
     #titulo{
 
     margin: 0px 0px 15px 0px;
     border-color: burlywood;
+
 }
    #Menuprincipal {
 
@@ -37,15 +40,18 @@ header {
 
    }
    a:hover {
-    color: blue;
-    background: red;
+    color: rgb(57, 57, 63);
+    background: rgb(187, 172, 172);
    }
 
-
+    #objetivos{
+    text-align: justify;
+    }
    .tituloSeccion {
     background-color: #333;
     color: #fff;
     padding: 10px;
+    text-align: center;
    }
    article {
     border: 0px solid #ccc;
@@ -59,5 +65,35 @@ header {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
-    border-radius: 50%;
+  
    }
+   footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer span {
+    display: block;
+}
+
+#enlaces-legales ul {
+    list-style: none;
+    padding: 0;
+}
+
+#enlaces-legales li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#enlaces-legales a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#enlaces-legales a:hover {
+    text-decoration: underline;
+}
