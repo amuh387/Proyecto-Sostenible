@@ -14,7 +14,9 @@ header {
     border-style: dotted;
    }
 
-
+#imagen{
+ text-align: center;
+}
     #titulo{
 
     margin: 0px 0px 15px 0px;
